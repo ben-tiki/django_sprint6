@@ -1,0 +1,161 @@
+* {
+    margin: 0;
+}
+body{
+    background-color: #e7e7e7;
+}
+h1 { color: #fff; 
+    font-family: Tahoma, sans-serif;
+    font-weight: bold; 
+    letter-spacing: -1px; 
+    line-height: 1; 
+    text-align: center;
+    text-shadow: rgba(0, 0, 0, 0.673) 0px 1px 10px;
+     }
+
+.header{
+    background-color:#6695cb73;
+    height: 100px;
+    display: flex;
+    align-items: center;    
+    justify-content: center;
+    box-shadow: 5px 0px 20px black;
+    margin-bottom: 30px;
+    justify-content: space-between;
+    flex-direction: row-reverse;
+    padding: 15px 25px;
+    background: linear-gradient(
+      270.01deg,
+      #b0a8ffdb 8.27%,
+      #f2e1ff 45.42%,
+      rgba(255, 249, 219, 0) 82.18%
+    );
+  }
+
+img{
+    height: 60px;
+    width: auto;
+}
+label {
+    color: #6695cb;
+    font-family: Tahoma, sans-serif;
+    font-weight: bold;
+    width: 230px;
+    text-align: center;
+    }
+
+#button {
+    padding: 5px;
+    /* margin-left: 10px; */
+    font-family: Tahoma, sans-serif;
+    border: 1px solid gray;
+    background-color:#6695cb;
+    border-radius: 25px;
+    margin: 15px;
+    width: 100px;
+    font-size: 15px;
+    }
+
+#form {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    line-height: 40px;
+}
+input{
+    border-radius: 10px;
+    width: 350px;
+    height: 30px;
+}
+
+.body-data{
+    background-color: white; 
+    border-radius: 30px;
+    margin: 50px 100px 50px 100px;
+    display: grid;
+    grid-template-columns: repeat(2, 50%);
+    grid-template-rows: repeat(3, 1fr);
+    row-gap: 50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    align-items: center;
+}
+
+#registro_transacciones{
+    flex: 1;
+    margin-right: 200px;
+}
+
+#mostrar_datos{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#query_table{
+    border-collapse: collapse;
+    margin: 25px 0;
+    font-size: 0.9em;
+	width: 80%;
+	margin-left: 10%;
+	margin-right: 10%;
+	/* padding-left: 30px; */
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    min-width: 400px;
+    box-shadow: 0 0 20px rgba(0, 0, 0, 0.15);
+    text-align: left;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+th{ text-align: center;}
+
+
+th, td{
+    padding: 15px;
+    border: thin solid rgba(0, 0, 0, 0.589);
+}
+
+thead {
+    background-color: #b0a8ffdb ;
+    color: #ffffff;
+    text-align: center;
+    color: rgba(0, 0, 0, 0.795);
+    text-transform: uppercase;
+}
+
+tbody tr {
+    border-bottom: thin solid #dddddd;
+}
+
+tbody tr:nth-of-type(even) {
+    background-color: #f3f3f3;
+}
+
+.dataTables_wrapper {
+    font-family: tahoma;
+}
+
+#query_table_info {
+	margin-left: 10%;
+	font-family: tahoma;
+}
+
+#query_table_paginate {
+	margin-right: 10%;
+	font-family: tahoma;
+}
+#query_table_previous{
+	font-family: tahoma;
+}
+
+#query_table_next{
+	font-family: tahoma;
+}
+
+#selected_query {
+    font-family: Tahoma, sans-serif;
+    font-weight: bold; 
+    letter-spacing: 0.5px; 
+    line-height: 1; 
+    text-align: center;
+     }
